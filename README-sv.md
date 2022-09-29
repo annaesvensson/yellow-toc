@@ -2,24 +2,24 @@
 
 # Toc 0.8.7
 
-Table of contents.
+Innehållsförteckning.
 
-<p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="toc-screenshot.png?raw=true" alt="Skärmdump"></p>
 
-## How to make a table of contents
+## Hur man gör en innehållsförteckning
 
-Create a `[toc]` shortcut. The table of contents is automatically generated from the headings.
+Skapa en `[toc]` förkortning. Innehållsförteckningen genereras automatiskt från rubrikerna. 
 
-## Examples
+## Exempel
 
-Content file with table of contents:
+Innehållsfil med innehållsförteckning:
 
     ---
-    Title: Example page
+    Title: Exempelsida
     ---
     [toc]
     
-    ## First heading
+    ## Första rubriken
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -27,7 +27,7 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Second heading
+    ## Andra rubriken
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -35,11 +35,11 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Summary
+    ## Sammanfattning
     
-    This is an example page.
+    Detta är en exempelsida.
 
-Layout file with table of contents:
+Layoutfil med innehållsförteckning:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -53,8 +53,8 @@ Layout file with table of contents:
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/toc.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/toc.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-## Developer
+## Utvecklare
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

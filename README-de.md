@@ -2,24 +2,24 @@
 
 # Toc 0.8.7
 
-Table of contents.
+Inhaltsverzeichnis anzeigen.
 
-<p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="toc-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to make a table of contents
+## Wie zeigt man ein Inhaltsverzeichnis an
 
-Create a `[toc]` shortcut. The table of contents is automatically generated from the headings.
+Erstelle eine `[toc]`-Abkürzung. Das Inhaltsverzeichnis wird automatisch aus den Überschriften erzeugt.
 
-## Examples
+## Beispiele
 
-Content file with table of contents:
+Inhaltsdatei mit Inhaltsverzeichnis:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     [toc]
     
-    ## First heading
+    ## Erste Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -27,7 +27,7 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Second heading
+    ## Zweite Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -35,11 +35,11 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Summary
+    ## Zusammenfassung
     
-    This is an example page.
+    Das ist eine Beispielseite.
 
-Layout file with table of contents:
+Layoutdatei mit Inhaltsverzeichnis:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -53,8 +53,8 @@ Layout file with table of contents:
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/toc.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/toc.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
