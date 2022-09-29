@@ -1,5 +1,5 @@
 <?php
-// Toc extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/toc
+// Toc extension, https://github.com/annaesvensson/yellow-toc
 
 class YellowToc {
     const VERSION = "0.8.7";
