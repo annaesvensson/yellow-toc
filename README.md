@@ -53,7 +53,7 @@ Layout file with table of contents:
 
 ## Installation
 
-[Download extension](https://github.com/annaesvensson/yellow-toc/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-toc/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
