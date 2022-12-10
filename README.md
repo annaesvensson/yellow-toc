@@ -6,6 +6,10 @@ Table of contents.
 
 <p align="center"><img src="toc-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-toc/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to make a table of contents
 
 Create a `[toc]` shortcut. The table of contents is automatically generated from the headings.
@@ -50,10 +54,6 @@ Layout file with table of contents:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-toc/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 

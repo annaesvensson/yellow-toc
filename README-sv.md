@@ -6,6 +6,10 @@ Innehållsförteckning.
 
 <p align="center"><img src="toc-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-toc/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man gör en innehållsförteckning
 
 Skapa en `[toc]` förkortning. Innehållsförteckningen genereras automatiskt från rubrikerna. 
@@ -50,10 +54,6 @@ Layoutfil med innehållsförteckning:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-toc/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
