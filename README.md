@@ -54,6 +54,13 @@ Layout file with table of contents:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
+    
+## Settings
+
+The following settings can be configured in `system/extensions/yellow-system.ini`: 
+
+`TocLevel`: which heading levels will be included in the table of contents. Options: 1-6.  
+`TocNumbering`: whether the table of contents should be numbered or not. Options: 0 = not numbered, 1 = numbered.
 
 ## Developer
 

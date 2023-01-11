@@ -1,0 +1,15 @@
+/* Table of contents, with nested numbering system */
+
+.content .toc {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.toc ol {
+    list-style-type: decimal;
+}
+
+.toc ol > li::marker {
+    content: counters(list-item,".") ". ";
+    padding: 0 10px;
+}
