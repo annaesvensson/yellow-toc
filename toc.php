@@ -2,7 +2,7 @@
 // Toc extension, https://github.com/annaesvensson/yellow-toc
 
 class YellowToc {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -14,17 +14,26 @@ class YellowToc {
     public function onParseContentHtml($page, $text) {
         $callback = function ($matches) use ($page) {
             $output = "<ul class=\"toc\">\n";
-            $major = $minor = 0;
+            $level1 = $level2 = $level3 = $level4 = $level5 = 0;
             $location = $page->getPage("main")->getLocation(true);
             $rawData = $page->getPage("main")->parserData;
             preg_match_all("/<h(\d) id=\"([^\"]+)\">(.*?)<\/h\d>/i", $rawData, $matches, PREG_SET_ORDER);
             foreach ($matches as $match) {
                 switch ($match[1]) {
-                    case 2: ++$major; $minor = 0;
-                            $output .= "<li><a href=\"$location#$match[2]\">$major. $match[3]</a></li>\n";
+                    case 2: ++$level1; $level2 = $level3 = $level4 = $level5 = 0;
+                            $output .= "<li class=\"toc1\"><a href=\"$location#$match[2]\">$level1. $match[3]</a></li>\n";
                             break;
-                    case 3: ++$minor;
-                            $output .= "<li><a href=\"$location#$match[2]\">$major.$minor. $match[3]</a></li>\n";
+                    case 3: ++$level2; $level3 = $level4 = $level5 = 0;
+                            $output .= "<li class=\"toc2\"><a href=\"$location#$match[2]\">$level1.$level2. $match[3]</a></li>\n";
+                            break;
+                    case 4: ++$level3; $level4 = $level5 = 0;
+                            $output .= "<li class=\"toc3\"><a href=\"$location#$match[2]\">$level1.$level2.$level3 $match[3]</a></li>\n";
+                            break;
+                    case 5: ++$level4; $level5 = 0;
+                            $output .= "<li class=\"toc4\"><a href=\"$location#$match[2]\">$level1.$level2.$level3.$level4 $match[3]</a></li>\n";
+                            break;
+                    case 6: ++$level5;
+                            $output .= "<li class=\"toc5\"><a href=\"$location#$match[2]\">$level1.$level2.$level3.$level4.$level5 $match[3]</a></li>\n";
                             break;
                 }
             }
