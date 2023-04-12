@@ -59,7 +59,7 @@ Layoutdatei mit Inhaltsverzeichnis:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`TocHeadingNumber` = Überschrift mit Nummer anzeigen, 1 oder 0  
+`TocHeadingNumber` = Überschriften mit Nummer anzeigen, 1 oder 0  
 
 ## Entwickler
 

@@ -59,7 +59,7 @@ Layoutfil med innehållsförteckning:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`TocHeadingNumber ` = visa rubrik med nummer, 1 eller 0  
+`TocHeadingNumber ` = visa rubriker med nummer, 1 eller 0  
 
 ## Utvecklare
 
