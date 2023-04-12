@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.8
+# Toc 0.8.9
 
 Innehållsförteckning.
 
@@ -54,6 +54,12 @@ Layoutfil med innehållsförteckning:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
+
+## Inställningar
+
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
+
+`TocHeadingNumber ` = visa rubrik med nummer, 1 eller 0  
 
 ## Utvecklare
 

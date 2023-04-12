@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.8
+# Toc 0.8.9
 
 Table of contents.
 
@@ -54,6 +54,13 @@ Layout file with table of contents:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
+
+
+## Settings
+
+The following settings can be configured in file `system/extensions/yellow-system.ini`:
+
+`TocHeadingNumber ` = show heading with number, 1 or 0  
 
 ## Developer
 

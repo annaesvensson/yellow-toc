@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.8
+# Toc 0.8.9
 
 Inhaltsverzeichnis anzeigen.
 
@@ -54,6 +54,12 @@ Layoutdatei mit Inhaltsverzeichnis:
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
+
+## Einstellungen
+
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
+
+`TocHeadingNumber` = Überschrift mit Nummer anzeigen, 1 oder 0  
 
 ## Entwickler
 
