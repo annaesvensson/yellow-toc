@@ -49,8 +49,8 @@ Layoutdatei mit Inhaltsverzeichnis:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getExtra("toc") ?>
-    <?php echo $this->yellow->page->getContent() ?>
+    <?php echo $this->yellow->page->getExtraHtml("toc") ?>
+    <?php echo $this->yellow->page->getContentHtml() ?>
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
