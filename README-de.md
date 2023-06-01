@@ -10,7 +10,7 @@ Inhaltsverzeichnis anzeigen.
 
 [ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-toc/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
-## Wie zeigt man ein Inhaltsverzeichnis an
+## Wie man ein Inhaltsverzeichnis anzeigt
 
 Erstelle eine `[toc]`-Abkürzung. Das Inhaltsverzeichnis wird automatisch aus den Überschriften erzeugt.
 
