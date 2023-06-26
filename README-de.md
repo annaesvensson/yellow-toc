@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.9
+# Toc 0.8.10
 
 Inhaltsverzeichnis anzeigen.
 
@@ -60,6 +60,7 @@ Layoutdatei mit Inhaltsverzeichnis:
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
 `TocHeadingNumber` = Überschriften mit Nummer anzeigen, 1 oder 0  
+`TocHeadingLevels` = Überschriftenebenen die angezeigt werden sollen, 1 bis 5  
 
 ## Entwickler
 

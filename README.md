@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.9
+# Toc 0.8.10
 
 Table of contents.
 
@@ -61,6 +61,7 @@ Layout file with table of contents:
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `TocHeadingNumber` = show headings with number, 1 or 0  
+`TocHeadingLevels` = heading levels to be displayed, 1 to 5  
 
 ## Developer
 

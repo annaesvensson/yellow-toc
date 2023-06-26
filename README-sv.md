@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Toc 0.8.9
+# Toc 0.8.10
 
 Innehållsförteckning.
 
@@ -60,6 +60,7 @@ Layoutfil med innehållsförteckning:
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
 `TocHeadingNumber` = visa rubriker med nummer, 1 eller 0  
+`TocHeadingLevels` = rubriknivåer som ska visas, 1 till 5  
 
 ## Utvecklare
 
