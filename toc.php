@@ -38,7 +38,7 @@ class YellowToc {
                             break;
                     case 5: ++$level4; $level5 = 0;
                             $prefix = $headingNumber ? "$level1.$level2.$level3.$level4. " : "";
-                            $output .= "<li class=\"toc4\"><a href=\"$location#$match[2]\">$prefix $match[3]</a></li>\n";
+                            $output .= "<li class=\"toc4\"><a href=\"$location#$match[2]\">$prefix$match[3]</a></li>\n";
                             break;
                     case 6: ++$level5;
                             $prefix = $headingNumber ? "$level1.$level2.$level3.$level4.$level5. " : "";
