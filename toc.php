@@ -2,7 +2,7 @@
 // Toc extension, https://github.com/annaesvensson/yellow-toc
 
 class YellowToc {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -23,6 +23,7 @@ class YellowToc {
             preg_match_all("/<h(\d) id=\"([^\"]+)\">(.*?)<\/h\d>/i", $rawData, $matches, PREG_SET_ORDER);
             foreach ($matches as $match) {
                 if ($match[1]>$this->yellow->system->get("tocHeadingLevels")+1) continue;
+                $match[3] = strip_tags($match[3]);
                 switch ($match[1]) {
                     case 2: ++$level1; $level2 = $level3 = $level4 = $level5 = 0;
                             $prefix = $headingNumber ? "$level1. " : "";
