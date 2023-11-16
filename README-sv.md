@@ -4,7 +4,7 @@
 
 Innehållsförteckning.
 
-<p align="center"><img src="toc-screenshot.png?raw=true" alt="Skärmdump"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
