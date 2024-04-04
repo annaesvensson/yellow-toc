@@ -2,7 +2,7 @@
 // Toc extension, https://github.com/annaesvensson/yellow-toc
 
 class YellowToc {
-    const VERSION = "0.8.11";
+    const VERSION = "0.9.1";
     public $yellow;         // access to API
     
     // Handle initialisation
