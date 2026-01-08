@@ -1,29 +1,29 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Toc 0.9.1
 
-Table of contents.
+Inhaltsverzeichnis anzeigen.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
-## How to install an extension
+## Wie man eine Erweiterung installiert
 
-[Download ZIP file](https://github.com/annaesvensson/yellow-toc/archive/refs/heads/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-toc/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
-## How to make a table of contents
+## Wie man ein Inhaltsverzeichnis anzeigt
 
-Create a `[toc]` shortcut. The table of contents is automatically generated from the headings.
+Erstelle eine `[toc]`-Abkürzung. Das Inhaltsverzeichnis wird automatisch aus den Überschriften erzeugt.
 
-## Examples
+## Beispiele
 
-Content file with table of contents:
+Inhaltsdatei mit Inhaltsverzeichnis:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     [toc]
     
-    ## First heading
+    ## Erste Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -31,7 +31,7 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Second heading
+    ## Zweite Überschrift
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
     labore et dolore magna pizza. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -39,11 +39,11 @@ Content file with table of contents:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
     
-    ## Summary
+    ## Zusammenfassung
     
-    This is an example page.
+    Das ist eine Beispielseite.
 
-Layout file with table of contents:
+Layoutdatei mit Inhaltsverzeichnis:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -55,14 +55,13 @@ Layout file with table of contents:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
+## Einstellungen
 
-## Settings
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+`TocHeadingNumber` = Überschriften mit Nummer anzeigen, 1 oder 0  
+`TocHeadingLevels` = Überschriftenebenen die angezeigt werden sollen, 1 bis 5  
 
-`TocHeadingNumber` = show headings with number, 1 or 0  
-`TocHeadingLevels` = heading levels to be displayed, 1 to 5  
+## Entwickler
 
-## Developer
-
-Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
