@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Toc 0.9.1
 
-Inhaltsverzeichnis anzeigen.
+Inhaltsverzeichnis anzeigen. Entwickelt von Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -62,6 +60,4 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 `TocHeadingNumber` = Überschriften mit Nummer anzeigen, 1 oder 0  
 `TocHeadingLevels` = Überschriftenebenen die angezeigt werden sollen, 1 bis 5  
 
-## Entwickler
-
-Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

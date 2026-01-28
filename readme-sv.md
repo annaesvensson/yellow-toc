@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Toc 0.9.1
 
-Innehållsförteckning.
+Innehållsförteckning. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -62,6 +60,4 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `TocHeadingNumber` = visa rubriker med nummer, 1 eller 0  
 `TocHeadingLevels` = rubriknivåer som ska visas, 1 till 5  
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
